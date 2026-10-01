@@ -1,0 +1,355 @@
+/* =========================
+   CÀI ĐẶT CHUNG
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+
+/* =========================
+   MAIN
+   ========================= */
+
+#main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   HEAD
+   ========================= */
+
+#head {
+    height: 120px;
+
+    background-color: #eeeeee;
+
+    border: 1px solid #cccccc;
+
+    margin-bottom: 5px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+/* Logo */
+
+.logo {
+    width: 220px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    color: #1e88e5;
+}
+
+
+/* Banner */
+
+.banner {
+    flex: 1;
+
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #444444;
+}
+
+
+/* =========================
+   HEAD LINK
+   ========================= */
+
+#head-link {
+    height: 45px;
+
+    background-color: #eeeeee;
+
+    border: 1px solid #cccccc;
+
+    margin-bottom: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Link */
+
+#head-link a {
+    text-decoration: none;
+
+    color: #333333;
+
+    padding: 0 25px;
+
+    border-right: 1px solid #cccccc;
+}
+
+
+/* Link cuối */
+
+#head-link a:last-child {
+    border-right: none;
+}
+
+
+/* Hiệu ứng hover */
+
+#head-link a:hover {
+    color: #1e88e5;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   LEFT
+   ========================= */
+
+#left {
+    width: 200px;
+
+    min-height: 500px;
+
+    background-color: #f5f5f5;
+
+    border: 1px solid #cccccc;
+
+    float: left;
+
+    padding: 15px;
+
+    margin-right: 5px;
+}
+
+
+#left h3 {
+    margin-top: 0;
+
+    color: #333333;
+}
+
+
+/* Danh sách */
+
+#left ul {
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+
+#left li {
+    margin-bottom: 10px;
+}
+
+
+#left a {
+    text-decoration: none;
+
+    color: #333333;
+}
+
+
+#left a:hover {
+    color: #1e88e5;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   CONTENT
+   ========================= */
+
+#content {
+    width: 590px;
+
+    min-height: 500px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #cccccc;
+
+    float: left;
+
+    padding: 15px;
+
+    margin-right: 5px;
+}
+
+
+/* Nội dung */
+
+.section {
+    margin-bottom: 20px;
+
+    padding-bottom: 15px;
+
+    border-bottom: 1px solid #dddddd;
+}
+
+
+.section h2 {
+    margin-top: 0;
+
+    color: #1e88e5;
+
+    font-size: 20px;
+}
+
+
+.section p {
+    line-height: 1.6;
+
+    color: #555555;
+}
+
+
+/* =========================
+   PHOTO SLIDE
+   ========================= */
+
+.photo-box {
+    display: flex;
+
+    gap: 10px;
+}
+
+
+.photo-box div {
+    width: 30%;
+    height: 80px;
+
+    background-color: #dddddd;
+
+    border: 1px solid #bbbbbb;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #666666;
+}
+
+
+/* =========================
+   RIGHT
+   ========================= */
+
+#right {
+    width: 200px;
+
+    min-height: 500px;
+
+    background-color: #f5f5f5;
+
+    border: 1px solid #cccccc;
+
+    float: left;
+
+    padding: 10px;
+}
+
+
+.right-box {
+    background-color: #ffffff;
+
+    border: 1px solid #dddddd;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+}
+
+
+.right-box h3 {
+    margin-top: 0;
+
+    color: #1e88e5;
+
+    font-size: 16px;
+}
+
+
+.right-box p {
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* Bản đồ */
+
+.map {
+    height: 100px;
+
+    background-color: #dddddd;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #777777;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+#footer {
+    clear: both;
+
+    height: 80px;
+
+    background-color: #eeeeee;
+
+    border: 1px solid #cccccc;
+
+    margin-top: 5px;
+
+    padding: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+#footer a {
+    text-decoration: none;
+
+    color: #333333;
+}
+
+
+#footer a:hover {
+    color: #1e88e5;
+
+    font-weight: bold;
+}
